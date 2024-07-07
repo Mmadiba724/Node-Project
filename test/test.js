@@ -12,6 +12,10 @@ describe('multiply', function(){
         assert.equal(multiply(4, 4), 16);
     })
    
+    it('mulitiplying 23 by 45 and should be equal to 1035',function(){
+        assert.equal(multiply(23, 45), 1035);
+    })
+   
    
    
 
